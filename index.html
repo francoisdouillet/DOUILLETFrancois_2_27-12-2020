@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <title>Reservia</title>
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="index.css">
         <script src="https://kit.fontawesome.com/8d727fd0f3.js" crossorigin="anonymous"></script>
     </head>
@@ -10,8 +11,8 @@
         <header>
             <img class="logo" src="images/logo/Reservia.svg" alt="">
             <div class="button">
-                <a href=""><div class="menu">Hébergements</div></a>
-                <a href=""><div class="menu">Activités</div></a>
+                <a href="#ancre1"><div class="menu">Hébergements</div></a>
+                <a href="#ancre2"><div class="menu">Activités</div></a>
                 <a href=""><div class="menu" style="color: #0065FC; font-weight: bold;">S'inscrire</div></a>
             </div>
         </header>
@@ -47,12 +48,12 @@
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
-        <section class="heber">
+        <section class="heber" id="ancre1">
             <div class="marseille">
                 <div class="padding">
                     <h1>Hébergements à Marseille</h1>
                     <div class="carte_heber">
-                        <button class="carte">
+                        <a class="carte">
                             <img src="images/hebergements/4_small/heb1.jpg" alt="">
                             <div class="texte">
                                 <h2>Auberge la cannebière</h2>
@@ -65,8 +66,8 @@
                                     <i class="fas fa-star" style="color: #d9d9d9;"></i>
                                 </p>
                             </div>
-                        </button>
-                        <button class="carte">
+                        </a>
+                        <a class="carte">
                             <img src="images/hebergements/4_small/heb2.jpg" alt="">
                             <div class="texte">
                                 <h2>Hôtel du port</h2>
@@ -79,8 +80,8 @@
                                     <i class="fas fa-star"></i>
                                 </p>
                             </div>
-                        </button>
-                        <button class="carte">
+                        </a>
+                        <a class="carte">
                             <img src="images/hebergements/4_small/heb3.jpg" alt="">
                             <div class="texte">
                                 <h2>Hôtel Les mouettes</h2>
@@ -93,10 +94,10 @@
                                     <i class="fas fa-star" style="color: #d9d9d9;"></i>
                                 </p>
                             </div>
-                        </button>
+                        </a>
                     </div>
                     <div class="carte_heber">
-                        <button class="carte">
+                        <a class="carte">
                             <img src="images/hebergements/4_small/heb4.jpg" alt="">
                             <div class="texte">
                                 <h2>Hôtel de la mer</h2>
@@ -109,8 +110,8 @@
                                     <i class="fas fa-star" style="color: #d9d9d9;"></i>
                                 </p>
                             </div>
-                        </button>
-                        <button class="carte">
+                        </a>
+                        <a class="carte">
                             <img src="images/hebergements/4_small/heb5.jpg" alt="">
                             <div class="texte">
                                 <h2>Auberge Le Panier</h2>
@@ -123,8 +124,8 @@
                                     <i class="fas fa-star"></i>
                                 </p>
                             </div>
-                        </button>
-                        <button class="carte">
+                        </a>
+                        <a class="carte">
                             <img src="images/hebergements/4_small/heb6.jpg" alt="">
                             <div class="texte">
                                 <h2>Hôtel chez Amina</h2>
@@ -137,7 +138,7 @@
                                     <i class="fas fa-star"></i>
                                 </p>
                             </div>
-                        </button>
+                        </a>
                     </div>
                     <button id="affich">Afficher plus</button>
                 </div>
@@ -149,7 +150,7 @@
                         <i class="fas fa-chart-line" style="font-size: 25px;"></i>
                     </div>
                    <div class="bloc_pop"> 
-                        <button class="carte_pop">
+                        <a class="carte_pop">
                             <img src="images/hebergements/4_small/pop1.jpg" alt="">
                             <div class="texte_pop">
                                 <h2>Hôtel Le soleil du matin</h2>
@@ -164,8 +165,8 @@
                                     </p>
                                 </div>
                             </div>
-                        </button>
-                        <button class="carte_pop">
+                        </a>
+                        <a class="carte_pop">
                             <img src="images/hebergements/4_small/pop2.jpg" alt="">
                             <div class="texte_pop">
                                 <h2>Au coeur de l'eau Chambres d'hôtes</h2>
@@ -180,8 +181,8 @@
                                     </p>
                                 </div>
                             </div>
-                        </button>
-                        <button class="carte_pop">
+                        </a>
+                        <a class="carte_pop">
                             <img src="images/hebergements/4_small/pop3.jpg" alt="">
                             <div class="texte_pop">
                                 <h2>Hôtel Tout bleu et Blanc</h2>
@@ -196,39 +197,39 @@
                                 </p>
                                 </div>
                             </div>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="acti">
+        <section class="acti" id="ancre2">
             <h1 style="font-size: 22px;">Activités à Marseilles</h1>
             <div class="acti_carte">
                 <div class="acti_indiv">
-                    <button class="button_transform acti_indiv_1">
+                    <a class="button_transform acti_indiv_1">
                         <div class="button_texte"><h3>Vieux Port</h3></div>
-                    </button>
+                    </a>
                 </div>
                 <div class="acti_display acti_indiv">
-                    <button class="button_transform acti_indiv_2">
+                    <a class="button_transform acti_indiv_2">
                         <div class="button_texte"><h3>Fort de Pomègues</h3></div>
-                    </button>
-                    <button class="button_transform acti_indiv_3">
+                    </a>
+                    <a class="button_transform acti_indiv_3">
                         <div class="button_texte"><h3>Iles du Frioul</h3></div>
-                    </button>
+                    </a>
                 </div>
                 <div class="acti_indiv">
-                    <button class="button_transform acti_indiv_4">
+                    <a class="button_transform acti_indiv_4">
                         <div class="button_texte"><h3>Parc National des Calanques</h3></div>
-                    </button>
+                    </a>
                 </div>
                 <div class="acti_display acti_indiv">
-                    <button class="button_transform acti_indiv_5">
+                    <a class="button_transform acti_indiv_5">
                         <div class="button_texte"><h3>Notre-Dame-de-la-Garde</h3></div>
-                    </button>
-                    <button class="button_transform acti_indiv_6"> 
+                    </a>
+                    <a class="button_transform acti_indiv_6"> 
                         <div class="button_texte"><h3>Parc Longchamp</h3></div>
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
