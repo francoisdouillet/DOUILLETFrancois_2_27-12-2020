@@ -14,7 +14,10 @@ button {
     font-family: 'Raleway', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@font-face {
+	font-family: 'Raleway';
+	src: url(raleway.ttf);
+}
 
 
 /* DEBUT DU HEADER */
@@ -385,7 +388,11 @@ header :nth-child(2) {
 .acti_indiv_3 {
     width: 100%;
     height: 40%;
+<<<<<<< HEAD
     background: center url(/images/activites/4_small/kevin.jpg);
+=======
+    background: center url(/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+>>>>>>> 02e99993729d0fbc9a1e1f49e148fb0a29b9c0fc
 }
 .acti_indiv_4 {
     width: 100%;
