@@ -22,17 +22,18 @@ button {
 header {
     position: relative;
     height: 83px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header :nth-child(2) {
+    order: 2;
 }
 
 .logo {
     position: absolute;
     bottom: 0;
-}
-
-.button {
-    display: flex;
-    justify-content: flex-end;
-    height: 100%;
+    left: 0;
 }
 
 .menu {
@@ -384,7 +385,7 @@ header {
 .acti_indiv_3 {
     width: 100%;
     height: 40%;
-    background: center url(/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background: center url(/images/activites/4_small/kevin.jpg);
 }
 .acti_indiv_4 {
     width: 100%;
@@ -466,4 +467,3 @@ footer {
 }
 
 /* FIN FOOTER */ 
-
