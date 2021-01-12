@@ -4,27 +4,33 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>Reservia</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="indexmobile.css" media="screen and (max-width: 768px)">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="section1.css">
+        <link rel="stylesheet" href="section2.css">
+        <link rel="stylesheet" href="section3.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="icon" type="image/svg" href="images/logo/Reservia.svg" />
         <script src="https://kit.fontawesome.com/8d727fd0f3.js" crossorigin="anonymous"></script>
     </head>
    <body>
         <header>
             <img class="logo" src="images/logo/Reservia.svg" alt="">
-            <a href="" class="menu signin" style="color: #0065FC; font-weight: bold;">S'inscrire</a>
-            <a href="#ancre1" class="menu">Hébergements</a>
-            <a href="#ancre2" class="menu">Activités</a>
+            <a href="" class="menu signin" style="color: #0065FC">S'inscrire</a>
+            <a href="#ancre1" class="menu hebergements">Hébergements</a>
+            <a href="#ancre2" class="menu activity">Activités</a>
         </header>
         <section class="section1">
-            <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
-            <p>En plein centre ville ou en pleine nature</p>
+            <div class="section1_titre">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
             <div class=search>
                 <button class=position><i class="fas fa-map-marker-alt"></i></button>
                 <input type="text" placeholder="Marseille, France">
-                <button class="search1">Rechercher</button>
+                <button class="search1"><p>Rechercher</p><i class="fas fa-search"></i></button>
             </div>
             <div class="filtre">
-                <p id="p1">Filtres</p>
+                <div class="p1"><p>Filtres</p></div>
                 <div class="icone">
                     <button class="icone_filtre"><i class="fas fa-money-bill-wave"></i></button>
                     <p>Economique</p>
@@ -150,7 +156,7 @@
                     </div>
                    <div class="bloc_pop"> 
                         <a class="carte_pop">
-                            <img src="" alt="">
+                            <img src="images/hebergements/4_small/pop1.jpg" alt="">
                             <div class="texte_pop">
                                 <h2>Hôtel Le soleil du matin</h2>
                                 <p>Nuit à partir de 128€</p>
@@ -166,7 +172,7 @@
                             </div>
                         </a>
                         <a class="carte_pop">
-                            <img src="" alt="">
+                            <img src="images/hebergements/4_small/pop2.jpg" alt="">
                             <div class="texte_pop">
                                 <h2>Au coeur de l'eau Chambres d'hôtes</h2>
                                 <p>Nuit à partir de 71€</p>
@@ -182,7 +188,7 @@
                             </div>
                         </a>
                         <a class="carte_pop">
-                            <img src="" alt="">
+                            <img src="images/hebergements/4_small/pop3.jpg" alt="">
                             <div class="texte_pop">
                                 <h2>Hôtel Tout bleu et Blanc</h2>
                                 <p>Nuit à partir de 58€</p>
@@ -205,28 +211,34 @@
             <h1 style="font-size: 22px;">Activités à Marseilles</h1>
             <div class="acti_carte">
                 <div class="acti_indiv">
-                    <a class="button_transform acti_indiv_1">
+                    <a class="button_transform">
+                        <img class="image_100 image_mobile" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
                         <div class="button_texte"><h3>Vieux Port</h3></div>
                     </a>
                 </div>
                 <div class="acti_display acti_indiv">
-                    <a class="button_transform acti_indiv_2">
+                    <a class="button_transform">
+                        <img class="image_50 image_mobile" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
                         <div class="button_texte"><h3>Fort de Pomègues</h3></div>
                     </a>
-                    <a class="button_transform acti_indiv_3">
+                    <a class="button_transform">
+                        <img class="image_40 image_mobile" src="images/activites/4_small/kevin.jpg" alt="">
                         <div class="button_texte"><h3>Iles du Frioul</h3></div>
                     </a>
                 </div>
                 <div class="acti_indiv">
-                    <a class="button_transform acti_indiv_4">
+                    <a class="button_transform">
+                        <img class="image_100 image_mobile" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
                         <div class="button_texte"><h3>Parc National des Calanques</h3></div>
                     </a>
                 </div>
                 <div class="acti_display acti_indiv">
-                    <a class="button_transform acti_indiv_5">
+                    <a class="button_transform">
+                        <img class="image_50 image_mobile" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
                         <div class="button_texte"><h3>Notre-Dame-de-la-Garde</h3></div>
                     </a>
-                    <a class="button_transform acti_indiv_6"> 
+                    <a class="button_transform"> 
+                        <img class="image_40 image_mobile" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
                         <div class="button_texte"><h3>Parc Longchamp</h3></div>
                     </a>
                 </div>

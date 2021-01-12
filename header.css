@@ -1,0 +1,112 @@
+* {
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+	font-family: 'Raleway';
+    src: url(raleway.ttf);
+}
+
+
+/* DEBUT DU HEADER */
+
+header {
+    position: relative;
+    display: flex;
+}
+
+.logo {
+    order: 0;
+    margin-right: auto;
+    align-self: flex-end;
+}
+
+.signin {
+    order: 3;
+    font-weight: bold;
+}
+
+.hebergements {
+    order: 1;
+}
+
+.activity {
+    order: 2;
+}
+
+.menu {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    width: 160px;
+    color: black;
+}
+
+.menu:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+    padding-top: 47px; /* bidouillage pour pas que ca bouge le texte */
+}
+
+@media screen and (max-width: 768px){
+    body {
+        width: 100%;
+    }
+    
+    header {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .logo {
+        order: 0;
+        margin: 0;
+        width: 30%;
+        padding-left: 20px;
+    }
+    
+    .signin {
+        width: 30%;
+        padding-top: 20px;
+        order: 1;
+        margin-left: auto;
+    }
+    
+    .hebergements {
+        order: 2;
+    }
+    
+    .activity {
+        order: 3;
+    }
+
+    .hebergements, .activity {
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: 3px #F2F2F2 solid;
+        font-size: 16px;
+    }
+
+    .menu:hover {
+        border-top: 0px;
+        color: #0065FC;
+        padding-top: 20px;
+    }
+
+    .hebergements:hover,.activity:hover {
+        border-bottom: 3px blue solid;
+    }
+}
+

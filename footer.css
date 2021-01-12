@@ -1,0 +1,41 @@
+
+/* FOOTER */
+
+footer {
+    height: 200px;
+    background-color: #F2F2F2;
+    display: flex;
+    padding: 35px;
+}
+
+.footer_1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_1 a {
+    margin-bottom: 25px;
+    color: black;
+}
+
+.footer_1 a:hover {
+    text-decoration: underline;
+}
+
+/* FIN FOOTER */ 
+
+@media screen and (max-width: 768px){
+    .footer {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .footer_1 {
+        width: 100%;
+    }
+
+    .footer h3 {
+        margin-top: 0px;
+    }
+}
