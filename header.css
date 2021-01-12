@@ -19,7 +19,14 @@ button {
     src: url(raleway.ttf);
 }
 
+@font-face {
+    font-family: 'ralewaybold';
+    src: url(ralewaybold.ttf);
+}
 
+h1, h2, h3 {
+    font-family: 'ralewaybold';
+}
 /* DEBUT DU HEADER */
 
 header {
