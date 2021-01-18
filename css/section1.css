@@ -49,11 +49,11 @@
 .search1 {
     color: white;
     width: 120px;
-    font-size: 19px;
     font-weight: bold;
     background-color: #0065FC;
     height: 100%;
     border-radius: 0px 15px 15px 0Px;
+    font-size: 19px;
 }
 
 .search1:focus {
@@ -91,18 +91,25 @@
 }
 
 .icone {
+    position: relative;
     display: flex;
     border: 3px solid #F2F2F2;
     border-radius: 35px;
     margin-left: 20px;
+    padding-left: 45px;
+    height: 42px;
 }
 
 .icone_filtre {
     color: #0065fc;
-    width: 44px;
     height: 100%;
     background-color: #deebff;
     border-radius: 35px;
+    position: absolute;
+    left: -4px;
+    width: 46px;
+    height: 46px;
+    top: -2px;
 }
 
 .icone_filtre:hover {
@@ -177,7 +184,7 @@
         display: block;
     }
     
-    .search1 p {
+    .search1 span {
         display: none;
     }
 
@@ -187,10 +194,6 @@
 
     .icone p {
         font-size: 16px;
-    }
-
-    .icone_filtre {
-        width: 39px;
     }
 
     .icone {

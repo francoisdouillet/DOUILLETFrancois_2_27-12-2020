@@ -16,12 +16,12 @@ button {
 
 @font-face {
 	font-family: 'Raleway';
-    src: url(raleway.ttf);
+    src: url(../fonts/raleway.ttf);
 }
 
 @font-face {
     font-family: 'ralewaybold';
-    src: url(ralewaybold.ttf);
+    src: url(../fonts/ralewaybold.ttf);
 }
 
 h1, h2, h3 {
@@ -29,7 +29,7 @@ h1, h2, h3 {
 }
 /* DEBUT DU HEADER */
 
-header {
+nav {
     position: relative;
     display: flex;
 }
@@ -72,7 +72,7 @@ header {
         width: 100%;
     }
     
-    header {
+    nav {
         flex-direction: row;
         flex-wrap: wrap;
     }
